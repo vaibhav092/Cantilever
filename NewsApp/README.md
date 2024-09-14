@@ -5,6 +5,8 @@
 ### To run this 
 
 `
-  npm i 
+  npm i
+  `
+  `
   npm run dev
 `
