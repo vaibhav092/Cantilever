@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    @apply hover:bg-blue-400 px-3 rounded-2xl mb-1
+}
