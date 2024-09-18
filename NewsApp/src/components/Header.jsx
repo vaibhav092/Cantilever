@@ -53,7 +53,6 @@ function Header() {
                 type='text'
                 onChange={(e)=>{
                     setButtn(e.target.value)
-                    // console.log(searchValue);
                 }}
                 className='mt-3 rounded-xl w-48 h-auto text-xl text-black'
                 >

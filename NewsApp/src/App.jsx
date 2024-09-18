@@ -19,7 +19,6 @@ function App() {
     useEffect(() => {
     fetchNews()
     }, [searchValue]);
-  // console.log(data);
 
     return (
     <>
