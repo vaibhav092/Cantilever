@@ -13,7 +13,7 @@ function Home() {
         } else if (category === 'Women') {
           url = 'https://fakestoreapi.com/products/category/women\'s clothing';
         } else if (category === 'Accessories') {
-          url = 'https://fakestoreapi.com/products/category/jewelery'; 
+          url = 'https://fakestoreapi.com/products/category/jewelery';   
         }
 
         const response = await fetch(url);
@@ -35,7 +35,7 @@ function Home() {
                 <p className="text-lg">Discover the latest trends and exclusive offers just for you!</p>
             </div>
             <div className="banner-image w-1/2 flex justify-end">
-                <img src="../../public/banner.jpg" alt="Banner Image" className="w-3/4 h-auto object-cover mr-5" />
+                <img src="/banner.jpg" alt="Banner Image" className="w-3/4 h-auto object-cover mr-5" />
             </div>
         </div>
         <div className="products flex flex-wrap gap-6 p-4 justify-around">
